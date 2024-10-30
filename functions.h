@@ -2,7 +2,7 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-#define NUM_FUNCTIONS 6
+#define NUM_FUNCTIONS 7
 
 typedef struct
 {
@@ -14,12 +14,12 @@ typedef struct
 static const url_mapping_t url_mappings[NUM_FUNCTIONS]=
 {
     {"/", 0},
-    {"/arithmetic/square", 1},
-    {"/arithmetic/cube", 2},
-    {"/hello", 3},
-    {"/prime", 4},
-    {"/pingpong", 5},
-
+    {"/square", 1},
+    {"/cube", 2},
+    {"/helloworld", 3},
+    {"/pingpong", 4},
+    {"/arithmetic/prime", 5},
+    {"/arithmetic/fibonacci", 6},
 };
 
 
