@@ -4,7 +4,7 @@ LDFLAGS = -lm
 
 all: cflask
 
-cflask: cflask.c functions.c url_map.c 
+cflask: cflask.c functions.c url_map.c libcivetweb.a
 	$(CC) $(CFLAGS) cflask.c functions.c url_map.c libcivetweb.a -o cflask $(LDFLAGS)
 
 clean:

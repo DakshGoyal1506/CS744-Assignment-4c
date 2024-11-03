@@ -14,7 +14,8 @@ const char* prime(const char *query_string);
 const char* pingpong(const char *query_string);
 const char* fibonnaci(const char *query_string);
 
-static const func_ptr_t functions_list[NUM_FUNCTIONS] = {
+static const func_ptr_t functions_list[NUM_FUNCTIONS] = 
+{
     index_page,
     square,
     cube,

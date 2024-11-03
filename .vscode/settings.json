@@ -8,5 +8,7 @@
         "string_view": "c",
         "initializer_list": "c",
         "map": "c"
-    }
+    },
+    "makefile.configureOnOpen": false,
+    "cmake.sourceDirectory": "/home/daksh/Desktop/DECS/cs744-lab4/4c/libhttp-1.8"
 }
