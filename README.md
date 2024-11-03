@@ -224,6 +224,5 @@ To visualize the load test results, use the provided Python script to generate p
 - Load testing on the same machine as the server may lead to resource contention, affecting results.
 - Adjust thread pool sizes (`num_threads` parameter) in the server startup command to see the effects on performance.
 
-## **8. Contact**
-If you encounter issues or have questions, please reach out to the course instructor or teaching assistants.
+
 
